@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Home() {
+function Home({ title, leftbutton, rightbutton }) {
     return <Wrapper>
         <Container>
             <TextContainer>
@@ -10,10 +10,15 @@ function Home() {
                 </h1>
                 <P>Order Online for <U>Touchless Delivery</U></P>
             </TextContainer>
+            <div>
             <ButtonGroups>
                 <LeftButton>Custom Order</LeftButton>
                 <RightButton>Existing Inventory</RightButton>
             </ButtonGroups>
+            <Svg>
+                <img src = "./images/down-arrow.svg" alt = "Down Arrow"/>
+            </Svg>
+            </div>
         </Container>
     </Wrapper>;
 }
@@ -23,6 +28,7 @@ export default Home;
 const Wrapper = styled.div`
     height: 100vh;
     width: 100vw;
+    /*margin-top: 40px;*/
     background-image: url("./images/model-s.jpg");
     background-position: center center;
     background-repeat: no repeat;
@@ -64,7 +70,7 @@ const ButtonGroups = styled.div`
     height: 200px;
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 `;
 
 const LeftButton = styled.button`
@@ -78,7 +84,21 @@ const LeftButton = styled.button`
         cursor: pointer;
         margin-left: 10px;
         margin-right: 10px;
+        opacity: 0.70;
 `;
 
 const RightButton = styled(LeftButton)`
+        background-color: #ffff;
+        color: black;
+        opacity: 0.55;
+`;
+
+const Svg = styled.div`
+        height: 40px;
+        img {
+            height: 100%;
+            width: 100%;
+            animation: animate 2s infinite;
+        }      
+        
 `;
