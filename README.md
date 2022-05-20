@@ -9,3 +9,6 @@
   
   ## Preview
   ![tesla react](https://user-images.githubusercontent.com/84366215/168971681-82b4db09-3dcf-4b6f-9d6d-9bd0463062aa.png)
+  ![tsl3](https://user-images.githubusercontent.com/84366215/169456857-e95029cb-f5c9-4320-9e62-3348ac6cdd1d.png)
+  ![tsly](https://user-images.githubusercontent.com/84366215/169457006-3afe239e-adc9-4c11-940a-926d7426f1c2.png)
+  ![tslx](https://user-images.githubusercontent.com/84366215/169457097-11e9bfca-b66e-4392-b1d5-7a6ce313b040.png)
