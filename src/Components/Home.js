@@ -25,6 +25,8 @@ function Home({ title, leftbutton, rightbutton }) {
 
 export default Home;
 
+/*Declaring Variables*/
+
 const Wrapper = styled.div`
     height: 100vh;
     width: 100vw;
