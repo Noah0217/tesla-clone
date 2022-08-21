@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Tesla Clone Website
 
 <h2>Description<br><h2>  <h4>A clone of Tesla's website built using React.js and Redux.<h4>
