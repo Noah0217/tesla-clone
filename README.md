@@ -2,7 +2,7 @@
 
 # Tesla Clone Website
 
-<h2>Description<br><h2>  <h4>A clone of Tesla's website built using React.js and Redux.<h4>
+<h2>Description<br><h2>  <h4>A clone of Tesla's UI built using React.js and Redux.<h4>
   
 <h2 align="left">Languages and Tools</h2>
 
